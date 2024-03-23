@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <link rel="stylesheet" href="style.css" />
+   <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+   <title>Etäkauppaprojekti</title>
+   <script src="script.js"></script>
+</head>
+<body>
+   <div style="text-align: center;">
+      <p class="p1">A Little Mouthful</p>
+      <img src="placeholder.png" id="myImg">
+      <p>
+      <p class="p2">Tervetuloa! Me olemme etäkauppa, josta voit vapaasti ostaa sitä, mitä meillä on saatavilla.</p>
+      <br>
+      <p class="p2">Meiltä löytyy:</p>
+      <p class="p3">
+      - Banaaneja<br>
+      - Kaalia<br>
+      - Kurkkua<br>
+      - Mandariineja<br>
+      - Omenoita<br>
+      - Porkkanoita<br>
+      - Persimoneja<br>
+      - Salaattia<br>
+      - Tomaatteja</p>
+
+
+      <p>
+      <b1><p>Ole hyvä ja valitse haluamasi tuote.</p></b1>
+      <p>
+      <select rel="period" select id="selectbox">
+      <option value="Banaaneja">Banaaneja</option>
+      <option value="Kaalia">Kaalia</option>
+      <option value="Kurkkua">Kurkkua</option>
+      <option value="Mandariineja">Mandariineja</option>
+      <option value="Omenoita">Omenoita</option>
+      <option value="Porkkanoita">Porkkanoita</option>
+      <option value="Persimoneja">Persimoneja</option>
+      <option value="Salaattia">Salaattia</option>
+      <option value="Tomaatteja">Tomaatteja</option>
+      </select>
+
+      <b1><p>Ostettava kilomäärä (kg):</p></b1>
+      <input type="number" step="0.01" min="0" max="100">
+      <br>
+
+      <b1><p class="p4">Syötä yhteystietosi toimitusta varten.</b1>
+      <br><br>
+      <label htmlFor="etunimi">Etunimi:</label>
+      <input type="text"
+            name="firstname"
+            id="firstname"/>
+      <br>
+      <label htmlFor="sukunimi">Sukunimi:</label>
+      <input type="text"
+            name="lastname"
+            id="lastname"/>
+      <br>
+      <label htmlFor="email">Osoite:</label>
+      <input type="text"
+            name="lastname"
+            id="lastname"/>
+      <br>
+      <label htmlFor="email">Postinumero:</label>
+      <input type="text"
+            name="lastname"
+            id="lastname"/>
+      <br>
+      <label htmlFor="email">Toimipaikka:</label>
+      <input type="text"
+            name="lastname"
+            id="lastname"/>
+      <br>
+      <label htmlFor="email">Sähköposti:</label>
+      <input type="text"
+            name="lastname"
+            id="lastname"/>
+      <br>
+      <label htmlFor="email">Puhelinnumero:</label>
+      <input type="text"
+            name="lastname"
+            id="lastname"/>
+      <br>
+      </p>
+      <br>
+      <p class="p5">
+      <input type="checkbox">Haluan jatkossa kaupallisia suosituksia sähköpostitse A Little Mouthful -tuotteista.</input>
+      <br>
+      <input type="checkbox">Olen lukenut tietosuojaehdot.</input></p>
+      <p>
+      <button id="buy" class="button1" a href="varmista.html"><h1 style="font-size:18px">Osta</h1></button>
+
+      <p class="p2">Jos olet jollain muulla asialla, esimerkiksi jos haluat myydä meille tuotteita, tässä on yhteystietomme:
+      <p class="p3">Pihlajankatu 6
+      <br>050 123 4567
+      <br>admin@admin.fi
+      </p></p>
+   </div>
+</body>
+</html>
